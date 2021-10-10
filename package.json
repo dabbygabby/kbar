@@ -1,6 +1,6 @@
 {
   "name": "kbar-witmod2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf ./lib & tsc",
@@ -58,6 +58,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timc1/kbar.git"
+    "url": "https://github.com/dabbygabby/kbar"
   }
 }
