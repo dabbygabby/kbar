@@ -1,9 +1,9 @@
 {
   "name": "kbar-witmod2",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "main": "lib/index.js",
   "scripts": {
-    "install": "rm -rf ./lib & tsc",
+    "build": "rm -rf ./lib & tsc",
     "build:example": "webpack --config ./example/webpack.prod.cjs",
     "dev": "webpack-dev-server --config ./example/webpack.config.cjs --hot",
     "lint": "eslint src/**/* example/src/**/* --ext .js,.ts,.tsx",
