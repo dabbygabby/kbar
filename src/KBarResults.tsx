@@ -148,14 +148,13 @@ export default function KBarResults(props: KBarResultsProps) {
                 }
               );
             }
-
             return (
               <DefaultResultWrapper
                 key={action.id}
                 isActive={activeIndex === index}
                 {...handlers}
               >
-                {action.name}
+                {action.name} 
               </DefaultResultWrapper>
             );
           })

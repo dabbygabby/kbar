@@ -22,7 +22,7 @@ function useToggleHandler() {
 
   React.useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
-      if ((event.metaKey || event.ctrlKey) && event.key === "j") {
+      if ((event.metaKey || event.ctrlKey) && event.key === "e") {
         event.preventDefault();
         query.setVisualState((vs) => {
           if (vs === VisualState.hidden || vs === VisualState.animatingOut) {
